@@ -1,10 +1,10 @@
-yfinance
+streamlit
 pandas
 numpy
 plotly
-streamlit
 scikit-learn
-joblib
+yfinance
 ta
-tensorflow-cpu
-statsmodels
+joblib
+runtime.txt
+python-3.10
