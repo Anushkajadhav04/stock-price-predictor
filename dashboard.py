@@ -207,7 +207,7 @@ with st.sidebar:
 
     forecast_days = st.slider("Forecast days", min_value=1, max_value=30, value=7)
 
-   model_choice = "ARIMA (Classical)"
+    model_choice = "ARIMA (Classical)"
 
     st.markdown("---")
     st.caption("Data: Yahoo Finance  |  Refresh: every 1h")
