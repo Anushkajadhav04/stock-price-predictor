@@ -6,5 +6,4 @@ scikit-learn
 yfinance
 ta
 joblib
-runtime.txt
-python-3.10
+
