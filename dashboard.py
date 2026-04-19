@@ -17,8 +17,8 @@ import joblib
 import os
 import ta
 from datetime import datetime, timedelta
-import tensorflow as tf
-from tensorflow.keras.models import load_model
+def load_lstm_model(ticker: str):
+    return None
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -207,10 +207,7 @@ with st.sidebar:
 
     forecast_days = st.slider("Forecast days", min_value=1, max_value=30, value=7)
 
-    model_choice = st.radio(
-        "Prediction model",
-        options=["LSTM (Deep Learning)", "ARIMA (Classical)"],
-    )
+   model_choice = "ARIMA (Classical)"
 
     st.markdown("---")
     st.caption("Data: Yahoo Finance  |  Refresh: every 1h")
